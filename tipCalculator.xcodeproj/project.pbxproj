@@ -19,6 +19,10 @@
 		B624606819E58DD500F735F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B624605019E58DD500F735F1 /* UIKit.framework */; };
 		B624607019E58DD500F735F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B624606E19E58DD500F735F1 /* InfoPlist.strings */; };
 		B624607219E58DD500F735F1 /* tipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B624607119E58DD500F735F1 /* tipCalculatorTests.m */; };
+		B624608719E5901500F735F1 /* CPTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B624608519E5901500F735F1 /* CPTipViewController.m */; };
+		B624608819E5901500F735F1 /* CPTipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B624608619E5901500F735F1 /* CPTipViewController.xib */; };
+		B624608C19E636A500F735F1 /* CPSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B624608A19E636A500F735F1 /* CPSettingsViewController.m */; };
+		B624608D19E636A500F735F1 /* CPSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B624608B19E636A500F735F1 /* CPSettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		B624606D19E58DD500F735F1 /* tipCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		B624606F19E58DD500F735F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B624607119E58DD500F735F1 /* tipCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipCalculatorTests.m; sourceTree = "<group>"; };
+		B624608419E5901500F735F1 /* CPTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTipViewController.h; sourceTree = "<group>"; };
+		B624608519E5901500F735F1 /* CPTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTipViewController.m; sourceTree = "<group>"; };
+		B624608619E5901500F735F1 /* CPTipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPTipViewController.xib; sourceTree = "<group>"; };
+		B624608919E636A500F735F1 /* CPSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPSettingsViewController.h; sourceTree = "<group>"; };
+		B624608A19E636A500F735F1 /* CPSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPSettingsViewController.m; sourceTree = "<group>"; };
+		B624608B19E636A500F735F1 /* CPSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CPSettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,12 @@
 				B624605C19E58DD500F735F1 /* CPAppDelegate.m */,
 				B624605E19E58DD500F735F1 /* Images.xcassets */,
 				B624605319E58DD500F735F1 /* Supporting Files */,
+				B624608419E5901500F735F1 /* CPTipViewController.h */,
+				B624608519E5901500F735F1 /* CPTipViewController.m */,
+				B624608619E5901500F735F1 /* CPTipViewController.xib */,
+				B624608919E636A500F735F1 /* CPSettingsViewController.h */,
+				B624608A19E636A500F735F1 /* CPSettingsViewController.m */,
+				B624608B19E636A500F735F1 /* CPSettingsViewController.xib */,
 			);
 			path = tipCalculator;
 			sourceTree = "<group>";
@@ -220,7 +236,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B624608D19E636A500F735F1 /* CPSettingsViewController.xib in Resources */,
 				B624605719E58DD500F735F1 /* InfoPlist.strings in Resources */,
+				B624608819E5901500F735F1 /* CPTipViewController.xib in Resources */,
 				B624605F19E58DD500F735F1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B624608C19E636A500F735F1 /* CPSettingsViewController.m in Sources */,
+				B624608719E5901500F735F1 /* CPTipViewController.m in Sources */,
 				B624605919E58DD500F735F1 /* main.m in Sources */,
 				B624605D19E58DD500F735F1 /* CPAppDelegate.m in Sources */,
 			);

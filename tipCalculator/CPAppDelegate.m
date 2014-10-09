@@ -7,6 +7,7 @@
 //
 
 #import "CPAppDelegate.h"
+#import "CPTipViewController.h"
 
 @implementation CPAppDelegate
 
@@ -14,6 +15,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    CPTipViewController *vc = [[CPTipViewController alloc]init];
+    UINavigationController *mvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+    self.window.rootViewController = mvc;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

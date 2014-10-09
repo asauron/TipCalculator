@@ -64,6 +64,15 @@
 
 - (void) onSettingsButton{
     [self.navigationController pushViewController:[[CPSettingsViewController alloc] init] animated:YES];
-
 }
+
+
+- (void)viewDidAppear:(BOOL)animated {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    self.tipLabel.text = [defaults objectForKey:@"initialTip"];
+    
+}
+
+
+
 @end
